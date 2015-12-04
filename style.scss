@@ -20,13 +20,13 @@ span {
 
 @for $i from 1 through 9 {
   span:nth-child(#{$i}) {
-    background-image: url(i/plane00#{$i}CompleteMap.png);
+    background-image: url(i/Plane00#{$i}CompleteMap.png);
     transform: translateZ($i*20px);
   }
 }
 @for $i from 10 through 30 {
   span:nth-child(#{$i}) {
-    background-image: url(i/plane0#{$i}CompleteMap.png);
+    background-image: url(i/Plane0#{$i}CompleteMap.png);
     transform: translateZ($i*20px);
   }
 }
